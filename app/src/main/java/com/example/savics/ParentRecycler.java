@@ -41,6 +41,7 @@ public class ParentRecycler extends RecyclerView.Adapter<ParentRecycler.ParentHo
     class ParentHolder extends RecyclerView.ViewHolder {
         TextView textView;
         public ParentHolder(@NonNull View itemView) {
+
             super(itemView);
             textView = itemView.findViewById(R.id.textView3);
 
