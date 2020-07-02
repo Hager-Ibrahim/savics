@@ -10,12 +10,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class ParentRecycler extends RecyclerView.Adapter<ParentRecycler.ParentHolder> {
+public class ParentAdapter extends RecyclerView.Adapter<ParentAdapter.ParentHolder> {
 
 
     ArrayList<Parent> parents ;
 
-    public ParentRecycler(ArrayList<Parent> parents) {
+    public ParentAdapter(ArrayList<Parent> parents) {
         this.parents = parents;
     }
 
